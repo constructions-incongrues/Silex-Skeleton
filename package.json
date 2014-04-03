@@ -1,0 +1,22 @@
+{
+  "name": "Silex-Skeleton",
+  "version": "0.0.0",
+  "description": "``` composer create-project constructions-incongrues/silex-skeleton ```",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/constructions-incongrues/Silex-Skeleton.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "f64a63d1fee0409ca9a877e583a985f4d669d68f",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-watch": "~0.6.1",
+  }
+}

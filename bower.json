@@ -1,0 +1,20 @@
+{
+  "name": "Silex-Skeleton",
+  "version": "1.1.0",
+  "homepage": "https://github.com/constructions-incongrues/Silex-Skeleton",
+  "authors": [
+    "Tristan Rivoallan <tristan@rivoallan.net>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.8",
+    "jquery": "~2.1"
+  }
+}

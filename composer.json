@@ -42,7 +42,9 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "ant properties.update configure build"
+            "ant properties.update configure build",
+            "bower update",
+            "npm install"
         ]
     }
 }
