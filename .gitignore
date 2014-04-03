@@ -1,2 +1,8 @@
+/src/config/parameters.yml
 /vendor/
 composer.lock
+*.bak
+*.sw*
+*~
+/etc/*
+!/etc/common
