@@ -1,8 +1,17 @@
 {
-    "name": "fabpot/silex-skeleton",
-    "description": "A pre-configured skeleton for the Silex microframework",
+    "name": "constructions-incongrues/silex-skeleton",
+    "description": "A pre-configured skeleton for the Silex microframework, Ananas Build Toolkit enabled",
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://constructions-incongrues.github.com/packages"
+        }
+    ],
+    "require-dev": {
+        "constructions-incongrues/ananas-build-toolkit": "~0.12"
+    },
     "require": {
         "php": ">=5.3.3",
         "silex/silex": "~1.0",
@@ -23,7 +32,7 @@
         "symfony/validator": "~2.3"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": { "": "src/src/" }
     },
     "extra": {
         "branch-alias": {
